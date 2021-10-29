@@ -3,6 +3,7 @@ import logo from "./../images/step-coders-logo-tr.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HireCoder from "../Pages/HireCoder";
 import SearchJobs from "../Pages/SearchJobs";
+import Home from "../Pages/Home";
 
 class Navbar extends Component {
   render() {
@@ -10,7 +11,9 @@ class Navbar extends Component {
       <Router>
         <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
           <div className="container-fluid">
-            <img src={logo} className="navbar-brand" alt="Step Coder" />
+            <Link to="/">
+              <img src={logo} className="navbar-brand" alt="Step Coder" />{" "}
+            </Link>
 
             <button
               className="navbar-toggler"
@@ -60,6 +63,9 @@ class Navbar extends Component {
           </div>
         </nav>
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/hire-a-coder">
             <HireCoder />
           </Route>
