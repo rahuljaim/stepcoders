@@ -3,7 +3,7 @@
   padding: 0;
 }
 .navbar {
-  background-image: linear-gradient(to right, #000000b0, #000000);
+  background-image: linear-gradient(to right, #6b796b, #99a799);
 }
 .navbar-brand {
   height: 45px;
@@ -15,4 +15,13 @@
 .navbar-nav li a {
   color: #fff !important;
   font-weight: 600;
+}
+.bg-banner {
+  background-color: #fef5ed;
+  background-image: url("../src/images/[Step]Coder_banner1.jpg");
+  height: 10%;
+}
+
+.bg-footer {
+  background-color: #d3e4cd;
 }

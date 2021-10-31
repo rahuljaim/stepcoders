@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HireCoder from "../Pages/HireCoder";
 import SearchJobs from "../Pages/SearchJobs";
 import Home from "../Pages/Home";
+import NotFound from "../Pages/NotFound";
+import About from "../Pages/About";
 
 class Navbar extends Component {
   render() {
@@ -37,12 +39,17 @@ class Navbar extends Component {
                     aria-current="page"
                     to="/hire-a-coder"
                   >
-                    Hire a Coder
+                    Hire coders
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/search-a-job">
-                    Search a Job
+                    Get paid for work
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/about">
+                    About Us
                   </Link>
                 </li>
               </ul>
@@ -71,6 +78,12 @@ class Navbar extends Component {
           </Route>
           <Route exact path="/search-a-job">
             <SearchJobs />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route>
+            <NotFound />
           </Route>
         </Switch>
       </Router>

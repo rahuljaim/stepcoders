@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -23,153 +24,162 @@ class Footer extends Component {
             <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
           </symbol>
         </svg>
+        <Router>
+          <div className="container-fluid bg-footer border-top mt-4">
+            <footer className="container py-5">
+              <div className="row">
+                <div className="col-2">
+                  <h5>For Buyer</h5>
+                  <ul className="nav flex-column">
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Post your project for bid
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Receive the bids (&amp; communicate with coders)
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Accept a bid and pay money in Srow
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Receive and approve task
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Rate to coder
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
 
-        <div className="container border-top mt-4">
-          <footer className="py-5">
-            <div className="row">
-              <div className="col-2">
-                <h5>For Buyer</h5>
-                <ul className="nav flex-column">
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Home
-                    </a>
+                <div className="col-2">
+                  <h5>For Coders</h5>
+                  <ul className="nav flex-column">
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Find a project to bid
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Bid on the project
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Complete the project &amp; submit weekly report
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Once buyer approves &amp; receive the payment
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Rate to Buyer
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="col-2">
+                  <h5>Latest news</h5>
+                  <ul className="nav flex-column">
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Affiliates
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        About Us
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Advertisement
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        FAQs | Privacy | Legal
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Want to learn - Join Academy
+                      </Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                      <Link to="#" className="nav-link p-0 text-muted">
+                        Feedback/ Contacts
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="col-4 offset-1">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of whats new and exciting from us.</p>
+                    <div className="d-flex w-100 gap-2">
+                      <label for="newsletter1" className="visually-hidden">
+                        Email address
+                      </label>
+                      <input
+                        id="newsletter1"
+                        type="text"
+                        className="form-control"
+                        placeholder="Email address"
+                      />
+                      <button className="btn btn-primary" type="button">
+                        Subscribe
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div className="d-flex justify-content-between py-4 my-4 border-top">
+                <p>
+                  &copy; 2021-2022 Step Coders, Inc. All rights reserved. - By
+                  using this site you agree to its Terms and Conditions.
+                </p>
+                <ul className="list-unstyled d-flex">
+                  <li className="ms-3">
+                    <Link className="link-dark" to="#">
+                      <svg className="bi" width="24" height="24">
+                        <use xlinkHref="#twitter" />
+                      </svg>
+                    </Link>
                   </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Features
-                    </a>
+                  <li className="ms-3">
+                    <Link className="link-dark" to="#">
+                      <svg className="bi" width="24" height="24">
+                        <use xlinkHref="#instagram" />
+                      </svg>
+                    </Link>
                   </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Pricing
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      FAQs
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      About
-                    </a>
+                  <li className="ms-3">
+                    <Link className="link-dark" to="#">
+                      <svg className="bi" width="24" height="24">
+                        <use xlinkHref="#facebook" />
+                      </svg>
+                    </Link>
                   </li>
                 </ul>
               </div>
-
-              <div className="col-2">
-                <h5>For Coders</h5>
-                <ul className="nav flex-column">
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Features
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Pricing
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      FAQs
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      About
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-2">
-                <h5>Latest updates/ blog</h5>
-                <ul className="nav flex-column">
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Features
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      Pricing
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      FAQs
-                    </a>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <a href="#" className="nav-link p-0 text-muted">
-                      About
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-4 offset-1">
-                <form>
-                  <h5>Subscribe to our newsletter</h5>
-                  <p>Monthly digest of whats new and exciting from us.</p>
-                  <div className="d-flex w-100 gap-2">
-                    <label for="newsletter1" className="visually-hidden">
-                      Email address
-                    </label>
-                    <input
-                      id="newsletter1"
-                      type="text"
-                      className="form-control"
-                      placeholder="Email address"
-                    />
-                    <button className="btn btn-primary" type="button">
-                      Subscribe
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-
-            <div className="d-flex justify-content-between py-4 my-4 border-top">
-              <p>&copy; 2021 Step Coders, Inc. All rights reserved.</p>
-              <ul className="list-unstyled d-flex">
-                <li className="ms-3">
-                  <a className="link-dark" href="#">
-                    <svg className="bi" width="24" height="24">
-                      <use xlinkHref="#twitter" />
-                    </svg>
-                  </a>
-                </li>
-                <li className="ms-3">
-                  <a className="link-dark" href="#">
-                    <svg className="bi" width="24" height="24">
-                      <use xlinkHref="#instagram" />
-                    </svg>
-                  </a>
-                </li>
-                <li className="ms-3">
-                  <a className="link-dark" href="#">
-                    <svg className="bi" width="24" height="24">
-                      <use xlinkHref="#facebook" />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </footer>
-        </div>
+            </footer>
+          </div>
+        </Router>
       </>
     );
   }
