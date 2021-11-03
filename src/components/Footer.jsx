@@ -28,7 +28,7 @@ class Footer extends Component {
           <div className="container-fluid bg-footer border-top mt-4">
             <footer className="container py-5">
               <div className="row">
-                <div className="col-2">
+                <div className="col-md-2">
                   <h5>For Buyer</h5>
                   <ul className="nav flex-column">
                     <li className="nav-item mb-2">
@@ -59,7 +59,7 @@ class Footer extends Component {
                   </ul>
                 </div>
 
-                <div className="col-2">
+                <div className="col-md-2">
                   <h5>For Coders</h5>
                   <ul className="nav flex-column">
                     <li className="nav-item mb-2">
@@ -90,7 +90,7 @@ class Footer extends Component {
                   </ul>
                 </div>
 
-                <div className="col-2">
+                <div className="col-md-2">
                   <h5>Latest news</h5>
                   <ul className="nav flex-column">
                     <li className="nav-item mb-2">
@@ -126,7 +126,7 @@ class Footer extends Component {
                   </ul>
                 </div>
 
-                <div className="col-4 offset-1">
+                <div className="col-md-4 offset-1">
                   <form>
                     <h5>Subscribe to our newsletter</h5>
                     <p>Monthly digest of whats new and exciting from us.</p>
