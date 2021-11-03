@@ -16,11 +16,11 @@ class Home extends Component {
         <div className="container mt-5">
           <div className="row">
             <div className="col-sm-4">
-              <div class="card">
-                <img src={Hiring} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">How to Hire?</h5>
-                  <p class="card-text">
+              <div className="card">
+                <img src={Hiring} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">How to Hire?</h5>
+                  <p className="card-text">
                     If you need a coder to create your website or Apps, just
                     post your description or question
                   </p>
@@ -28,7 +28,7 @@ class Home extends Component {
                     Coders around the world will bid on your project, if you
                     select any of them. They will begin
                   </p>
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" className="btn btn-primary">
                     Post your Project
                   </button>
                 </div>
@@ -36,18 +36,18 @@ class Home extends Component {
             </div>
 
             <div className="col-sm-4">
-              <div class="card">
-                <img src={FindWork} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Want to earn?</h5>
-                  <p class="card-text">
+              <div className="card">
+                <img src={FindWork} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Want to earn?</h5>
+                  <p className="card-text">
                     Want to earn income using your hard earned technical skill?
                   </p>
                   <p>
                     Step Coders brings you out among many proects and apps to
                     work from the world
                   </p>
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" className="btn btn-primary">
                     Register Now
                   </button>
                 </div>
@@ -55,11 +55,11 @@ class Home extends Component {
             </div>
 
             <div className="col-sm-4">
-              <div class="card">
-                <img src={Knowmore} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Know More</h5>
-                  <p class="card-text">
+              <div className="card">
+                <img src={Knowmore} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Know More</h5>
+                  <p className="card-text">
                     Just visit our F&amp;Q section to see all your questions and
                     doubts, click the link
                   </p>
@@ -67,7 +67,7 @@ class Home extends Component {
                     If you didn't found any solution, just reach-reach out to
                     use at logicalcreation@gmail.com
                   </p>
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" className="btn btn-primary">
                     How Tos?{" "}
                   </button>
                 </div>

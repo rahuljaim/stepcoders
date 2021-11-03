@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-class Header extends Component {
+class Login extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <h1 className="display-6">Login</h1>
       </div>
     );
   }
 }
 
-export default Header;
+export default Login;

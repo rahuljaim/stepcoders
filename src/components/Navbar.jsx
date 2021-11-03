@@ -53,9 +53,9 @@ class Navbar extends Component {
                   </Link>
                 </li>
               </ul>
-              <form class="d-flex">
+              <form className="d-flex">
                 <input
-                  class="form-control"
+                  className="form-control"
                   list="datalistOptions"
                   id="exampleDataList"
                   placeholder="Type to search..."
