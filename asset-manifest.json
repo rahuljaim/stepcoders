@@ -1,26 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.29e8d454.chunk.css",
-    "main.js": "/static/js/main.1ecb65fb.chunk.js",
-    "main.js.map": "/static/js/main.1ecb65fb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.79925c02.js",
-    "runtime-main.js.map": "/static/js/runtime-main.79925c02.js.map",
-    "static/js/2.8313a5c2.chunk.js": "/static/js/2.8313a5c2.chunk.js",
-    "static/js/2.8313a5c2.chunk.js.map": "/static/js/2.8313a5c2.chunk.js.map",
-    "static/js/3.6ea797c3.chunk.js": "/static/js/3.6ea797c3.chunk.js",
-    "static/js/3.6ea797c3.chunk.js.map": "/static/js/3.6ea797c3.chunk.js.map",
+    "main.css": "/static/css/main.742eb482.chunk.css",
+    "main.js": "/static/js/main.c11c3909.chunk.js",
+    "main.js.map": "/static/js/main.c11c3909.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.52f372aa.js",
+    "runtime~main.js.map": "/static/js/runtime~main.52f372aa.js.map",
+    "static/js/2.13dee516.chunk.js": "/static/js/2.13dee516.chunk.js",
+    "static/js/2.13dee516.chunk.js.map": "/static/js/2.13dee516.chunk.js.map",
+    "static/js/3.1142b564.chunk.js": "/static/js/3.1142b564.chunk.js",
+    "static/js/3.1142b564.chunk.js.map": "/static/js/3.1142b564.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.29e8d454.chunk.css.map": "/static/css/main.29e8d454.chunk.css.map",
-    "static/js/2.8313a5c2.chunk.js.LICENSE.txt": "/static/js/2.8313a5c2.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/[Step]Coder_banner1.d1583fef.jpg",
-    "static/media/findwork.138df34a.jpg": "/static/media/findwork.138df34a.jpg",
-    "static/media/hiring.d478c4a6.jpg": "/static/media/hiring.d478c4a6.jpg",
-    "static/media/knowmore.03703f20.jpg": "/static/media/knowmore.03703f20.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.79925c02.js",
-    "static/js/2.8313a5c2.chunk.js",
-    "static/css/main.29e8d454.chunk.css",
-    "static/js/main.1ecb65fb.chunk.js"
-  ]
+    "precache-manifest.19b4db0b1c225af5dc1c3a8977ca1de7.js": "/precache-manifest.19b4db0b1c225af5dc1c3a8977ca1de7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.742eb482.chunk.css.map": "/static/css/main.742eb482.chunk.css.map",
+    "static/media/App.css": "/static/media/[Step]Coder_banner1.7004c4fc.jpg",
+    "static/media/findwork.jpg": "/static/media/findwork.746d7697.jpg",
+    "static/media/hiring.jpg": "/static/media/hiring.ca23ba92.jpg",
+    "static/media/knowmore.jpg": "/static/media/knowmore.17b1de02.jpg"
+  }
 }
