@@ -10,7 +10,7 @@ import About from "../Pages/About";
 class Navbar extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
           <div className="container-fluid">
             <Link to="/">

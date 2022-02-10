@@ -1,8 +1,9 @@
+import React from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Navbar />
@@ -10,5 +11,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
